@@ -9,7 +9,7 @@ body {
 }
 
 main {
-    width: 70%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,8 +18,8 @@ main {
 }
 
 #crow {
-    width: 60%;
     display: block;
+    width: 100%;
     object-fit: contain;
 }
 
@@ -27,5 +27,16 @@ h1 {
     font-family: 'Arial', sans-serif;
     color: #333;
     height: 20%;
-    font-size: 4em
+    font-size: 1.5em;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    main {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1em;
+    }
 }
