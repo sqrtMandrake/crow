@@ -18,9 +18,9 @@ main {
 }
 
 #crow {
-    width: 80%;
-    height: auto;
+    width: 60%;
     display: block;
+    object-fit: contain;
 }
 
 h1 {
